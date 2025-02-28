@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(238, 231, 231);
+  min-height: 100vh;
+  /* overflow-y: hidden; */
+}
+
+main {
+  width: 500px;
+  height: 800px;
+  border: 5px solid black;
+  margin: 20px auto 0 auto;
+  background-color: #f7e4c6;
+  position: relative;
+}
+
+.cabeza-contenedor {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 39px;
+  left: 152px;
+}
+.oreja {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: #333237;
+  border-radius: 20px;
+}
+.oreja-izquierda {
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+.oreja-derecha {
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+.oreja-interna {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #e9e2da;
+  border-radius: 100%;
+}
+.rostro {
+  width: 150px;
+  height: 146px;
+  border: 1px solid black;
+  position: absolute;
+  left: 24px;
+  bottom: 0;
+  background-color: #333237;
+  border-radius: 35px;
+}
+.ojos {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  top: 25px;
+}
+
+.ojo-izquierdo {
+  width: 40px;
+  height: 100%;
+  border: 1px solid black;
+  position: absolute;
+  left: 24px;
+  background-color: #e9e2da;
+}
+.ojo-derecho {
+  width: 40px;
+  height: 100%;
+  border: 1px solid black;
+  position: absolute;
+  right: 18px;
+  background-color: #e9e2da;
+}
+
+.ojo-iris {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  top: 16px;
+  right: -23px;
+}
+
+.redondo-ojos {
+  border-radius: 40%;
+}
+.nariz {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 52px;
+  left: 65px;
+  background-color: #ffad64;
+  border-radius: 40%;
+}
+.boca {
+  width: 80px;
+  height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 15px;
+  left: 36px;
+  background-color: #e9e2da;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.lengua {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 27px;
+  border: 1px solid black;
+  background-color: rgb(207, 22, 22);
+  border-radius: 100%;
+}
+
+.cuello {
+  width: 50px;
+  height: 35px;
+  border: 1px solid black;
+  position: absolute;
+  top: 239px;
+  right: 221px;
+  background-color: #333237;
+}
+.cuerpo-contenedor {
+  width: 350px;
+  height: 400px;
+
+  position: absolute;
+  bottom: 124px;
+  left: 77px;
+}
+
+.torso {
+  width: 280px;
+  height: 80%;
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: 35px;
+  background-color: #333237;
+  border-radius: 70px;
+}
+
+.barriga {
+  width: 250px;
+  height: 80%;
+  border: 1px solid black;
+  border-radius: 100%;
+  position: absolute;
+  top: 31px;
+  left: 14px;
+  background-color: #ffad64;
+}
+
+.extremidad-superior {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: #fb8351;
+  border-radius: 100%;
+}
+.extremidad__superior-derecha {
+  position: absolute;
+  top: 0;
+  right: -56px;
+}
+
+.extremidad__superior-izquierda {
+  position: absolute;
+  top: 0;
+  left: -54px;
+}
+
+.extremidad-inferior {
+  width: 100px;
+  height: 75px;
+  border: 1px solid black;
+  background-color: #fb8351;
+  border-radius: 100%;
+}
+.extremidad__inferior-izquierda {
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+}
+
+.extremidad__inferior-derecha {
+  position: absolute;
+  bottom: 13px;
+  right: 0;
+}
+.titulo {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 59px;
+  left: 40px;
+}
